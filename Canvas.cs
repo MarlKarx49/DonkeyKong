@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace DonkeyKong
 {
-    partial class Canvas : Form
+    public partial class Canvas : Form
     {
         public Game game;
         public Canvas()
@@ -15,7 +15,7 @@ namespace DonkeyKong
             InitializeComponent();
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 800);
-            Image image = Bitmap.FromFile("D:\\Code\\Lessons\\donkeykong\\DonkeyKong\\Sprites\\girder.bmp");
+            Image image = Bitmap.FromFile("D:\\Code\\Lessons\\donkeykong\\assets\\environment\\girder.bmp");
             
         }
 
